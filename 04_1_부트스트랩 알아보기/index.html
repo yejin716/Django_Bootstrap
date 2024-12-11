@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>이예진의 홈페이지</title>
+        <link href="./bootstrap4/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        
+        
+        <!--덧셈 기능 추가 -->
+        <script type="text/javascript" src="./add_two_numbers.js"></script>
+        <script type="text/javascript" src="./what_time_is_it.js"></script>
+        
+    </head>
+
+    <body> <!--화면에 내용 -->
+        <nav>
+            <a href="./index.html">Home</a> <!--넘어갈 사이트-->
+            <a href="./blog_list.html">Blog</a>
+            <a href="./about_me.html">About me</a>
+        </nav>
+        
+        <h1>첫번째 크기 헤드라인</h1>
+        <h2>두번째 크기 헤드라인</h2>
+        <h3>세번째 크기 헤드라인</h3>
+        <h4>네번째 크기 헤드라인</h4>
+        <h5>다섯번째 크기 헤드라인</h5>
+        
+        <button onclick="whatTimeIsIt()">현재 시간</button>
+        <hr />
+        
+        <label for="inputA">a</label>
+        <input id="inputA" value=1 onkeyup="doSomething()">
+        <label for="inputB">b</label>
+        <input id="inputB" value=2 onkeyup="doSomething()">
+        
+        <p><span id="valueA">1</span> + <span id="valueB">2</span> = <span id="valueC">3</span></p>
+        <p>문단은 P로 쓰세요. p는 아마도 Paragraph의 앞글자를 따온 것이겠죠?</p>
+        <a href="https://www.google.com">Go to google</a>
+        <hr/>
+        <img src="../data/sky_cloud.jpg" width="600px">
+    </body>
+
+</html>
