@@ -1,0 +1,10 @@
+/* css파일 만들기 */
+nav {
+    background-color: darkgreen;
+    font-size: 150%;
+    text-align: center
+}
+
+nav a {
+    color: gold
+}
