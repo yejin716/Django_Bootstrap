@@ -5,16 +5,10 @@
         <title>이예진의 홈페이지</title>
         <link href="./practice.css" rel="stylesheet" type="text/css">
         
-        <script type="text/javascript">
-            function doSomething(){
-                let a = document.getElementById("inputA").value;
-                let b = document.getElementById("inputB").value;
-                document.getElementById("valueA").innerHTML = a;
-                document.getElementById("valueB").innerHTML = b;
-                document.getElementById("valueC").innerHTML = Number(a) + Number(b);
-                
-            }
-        </script>
+        <!--덧셈 기능 추가 -->
+        <script type="text/javascript" src="./add_two_numbers.js"></script>
+        <script type="text/javascript" src="./what_time_is_it.js"></script>
+        
     </head>
 
     <body> <!--화면에 내용 -->
@@ -29,6 +23,9 @@
         <h3>세번째 크기 헤드라인</h3>
         <h4>네번째 크기 헤드라인</h4>
         <h5>다섯번째 크기 헤드라인</h5>
+        
+        <button onclick="whatTimeIsIt()">현재 시간</button>
+        <hr />
         
         <label for="inputA">a</label>
         <input id="inputA" value=1 onkeyup="doSomething()">
